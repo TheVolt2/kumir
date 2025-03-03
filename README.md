@@ -1,6 +1,6 @@
-# Turtle Artist
+# Kumir Turtle
 
-Turtle Artist is a simple Python program that allows you to control a turtle using commands in Russian. It is inspired by the "Кумир" programming environment and is designed to help users learn basic programming concepts in a fun and interactive way.
+Kumir Turtle is a Python-based implementation of the "Кумир" programming environment, designed to help users learn programming concepts using a turtle graphics interface. The program supports Russian commands and provides a user-friendly interface for drawing and learning.
 
 ## Features
 
@@ -9,10 +9,12 @@ Turtle Artist is a simple Python program that allows you to control a turtle usi
 - **Grid and Coordinates**: The drawing area includes a grid with gray lines and brown X/Y axes for better visualization.
 - **Zoom and Pan**: Use the mouse to pan around the canvas and a slider to zoom in and out.
 - **Error Handling**: Errors are displayed in red, making it easy to debug your programs.
+- **Clipboard Support**: Use `Ctrl+V` to paste text into the command input area.
 
 ## How to Use
 
 1. **Write Your Program**: Enter your commands in the left text box. Example:
+```
 алг
 нач
 опустить хвост
@@ -21,12 +23,10 @@ Turtle Artist is a simple Python program that allows you to control a turtle usi
 вправо(90)
 кц
 кон
+```
+3. **Run the Program**: Click the "Выполнить" button to execute your commands. The turtle will draw on the right canvas.
 
-Copy
-
-2. **Run the Program**: Click the "Выполнить" button to execute your commands. The turtle will draw on the right canvas.
-
-3. **Pan and Zoom**:
+4. **Pan and Zoom**:
 - **Pan**: Click and drag with the left mouse button to move around the canvas.
 - **Zoom**: Use the slider at the bottom to adjust the zoom level (10% to 200%).
 
@@ -41,21 +41,16 @@ Copy
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/turtle-artist.git
-Navigate to the project directory:
-
-bash
-Copy
-cd turtle-artist
-Run the program:
-
-bash
-Copy
+```
+git clone https://github.com/TheVolt2/kumir.git
+```
+2. Navigate to the project directory:
+cd kumir
+3. Run the program:
 python main.py
 Example Programs
 Square
-Copy
+```
 алг
 нач
   опустить хвост
@@ -64,8 +59,9 @@ Copy
     вправо(90)
   кц
 кон
+```
 Spiral
-Copy
+```
 алг
 нач
   опустить хвост
@@ -74,5 +70,6 @@ Copy
     вправо(36)
   кц
 кон
-Contributing
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+```
+# Contributing
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request
